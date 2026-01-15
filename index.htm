@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prépa Numérique E2C-GrandLille</title>
-<link rel="icon" href="./asset/images/logoPN.png">
-<link rel="stylesheet" href="./style/style.css">
+  <meta charset="UTF-8">
+  <title>Prépa Numérique E2C-Grand Lille</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
-    
 <body>
-<header>
-<div class="header-title">
-<img src="./asset/images/logoPN.png" alt="logo du site">
-<h1>Prépa Numérique E2C-GrandLille</h1>
-</div>
-<nav>
-<a class="btn btn-dark" href="#">Accueil</a>
-<a class="btn btn-light" href="#">Galerie</a>
-<a class="btn btn-light" href="#">Livre d'or</a>
-<a class="btn btn-light" href="#">Contact</a>
-</nav>
-</header>
-</aside>
-
-    <!-- texte1 -->
-     
-        <h1>Suivez le lapin blanc !</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aliquam velit odio, pulvinar a magna ac, mattis posuere dui.
-                Vivamus turpis nisi, lobortis vel pellentesque sit amet.
-            </p>
-            <p>
-                Donec egestas lacus quis magna porta, non consequat arcu auctor.
-                Nunc elit justo, mollis vitae bibendum et.
-            </p>
-        
-                    Aenean posuere, turpis vitae lobortis dignissim,
-                    dolor est lacinia nunc, sit amet tristique velit metus eget felis.
-                </p>
-            </div>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-3 col-lg-2 bg-dark text-white p-4 vh-100">
+        <div class="mb-4">
+          <h4 class="fw-bold">Prépa Numérique</h4>
+          <p class="text-secondary">E2C-Grand Lille</p>
         </div>
-    </main>
+<img src="./asset/images/logoPN.png" class="img-fluid w-75 mb   -4" alt="Logo Prépa Numérique">
+        
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link text-white active" href="#">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Galerie</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Livre d'or</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+        </ul>
+      </nav>
 
-</div>
+      <!-- Main content -->
+      <main class="col-md-9 col-lg-10 p-5">
+        <h1 class="text-warning mb-4">Suivez le lapin blanc...!</h1>
 
+        <div class="mb-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit odio, pulvinar a magna ac...</p>
+          <p>Donec egestas torus quis magna porta, non consequat arcu auctor. Nunc elit justo, mollis vitae bibendum...</p>
+          <p>Aenean posuere, turpis vitae lobortis dignissim, dolor est lacinia nunc, sit amet tristique velit metus...</p>
+          <p>Nam aliquam sem id arcu pellentesque, ac varius felis la lobortis. Fusce metus sem, aliquam et auctor ut...</p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <img src="./asset/images/groupPn.webp" class="img-fluid rounded" alt="Photo 1">
+          </div>
+          <div class="col-md-6">
+            <img src="./asset/images/groupPn2.webp  " class="img-fluid rounded" alt="Photo 2">
+          </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit odio, pulvinar a magna ac...</p>
+          <p>Donec egestas torus quis magna porta, non consequat arcu auctor. Nunc elit justo, mollis vitae bibendum...</p>
+          <p>Aenean posuere, turpis vitae lobortis dignissim, dolor est lacinia nunc, sit amet tristique velit metus...</p>
+          <p>Nam aliquam sem id arcu pellentesque, ac varius felis la lobortis. Fusce metus sem, aliquam et auctor ut...</p>
+        </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
